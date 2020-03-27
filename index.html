@@ -8,40 +8,103 @@
 </head>
 <body>
     <header>
-       <h1>Pokemon</h1>
-       <p> What is your favorite <a href="https://pvpoke.com/">pvpoke</a> </p>
+       <h1>Choose your starter pokemon</h1>
+       <p> What is your best!? <a href="https://pvpoke.com/">pvpoke</a> </p>
     </header>
        <main>
+          <a href="#bulbasaur">Bulbasaur</a>
+          <a href="#charmander">Charmander</a>
+       <form>
+            <p><select name="select" size="1">
+            <option selected value="s1">Bulbasaur</option>
+            <option value="s2">Charmander</option>
+            <option value="s3">Squirtle</option>
+            </select>
+        </form>
           <section>
             <h2>#001 Bulbasaur</h2>
-            <img src="img/bulbasaur.png" alt="#oo1 bulbasaur">
+            <img src="img-main/bulbasaur.png" alt="#oo1 bulbasaur">
+            <p> Bulbasaur is a Grass/Poison type Pokémon introduced in Generation 1. It is known as the Seed Pokémon.</p>
           </section>
           <section>
-            <h2>Bulbasaur evolutions</h2>
+            <h3>Type</h3>
+            <form>
+                <input type="image" src="img-main/icon-type-grass.png" alt="Grass type"><input type="image" src="img-main/icon-type-poison.png" alt="Poison type">
+            </form>
+            <h3>Base stats</h3>
             <table>
                 <tr>
-                    <td>Bulbasaur to</td>
-                    <td>Ivesaur</td>
+                    <td>HP</td>
+                    <td>S.ATK</td>
+                    <td>S.DEF</td>
+                    <td>Speed</td>
+                    <td>ATK</td>
+                    <td>DEF</td>
                 </tr>
                 <tr>
-                    <td>Ivesaur   to</td>
-                    <td>Venusaur</td>
+                    <td>45</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>45</td>
+                    <td>49</td>
+                    <td>49</td>
                 </tr>
             </table>
           </section>
           <section>
-            <h2>Starter list</h2>
+            <h3>Evolutions</h3>
             <ul>
-                <ol>Bulbasaur</ol>
-                <ol>Charmander</ol>
-                <ol>Squirtle</ol>
+                <li>Bulbasaur <input type="image" src="img-main/iconbulbasaur.png" alt="bulbasaur"> </li>
+                <li>Ivysaur<input type="image" src="img-main/iconivysaur.png" alt="ivysaur"></li>
+                <li>Venusaur<input type="image" src="img-main/iconvenusaur.png" alt="venusaur"></li>
             </ul>
-            <
           </section>
+          <section>
+            <h2>#004 Charmander</h2>
+            <img src="img-main/charmander.jpg" alt="#oo4 charmander">
+            <p> Charmander is a Fire type Pokémon introduced in Generation 1. It is known as the Lizard Pokémon.</p>
+          </section>
+          <section>
+            <h3>Type</h3>
+            <form>
+                <input type="image" src="img-main/icon-type-fire.png" alt="Fire type">
+            </form>
+            <h3>Base stats</h3>
+            <table>
+                <tr>
+                    <td>HP</td>
+                    <td>S.ATK</td>
+                    <td>S.DEF</td>
+                    <td>Speed</td>
+                    <td>ATK</td>
+                    <td>DEF</td>
+                </tr>
+                <tr>
+                    <td>39</td>
+                    <td>60</td>
+                    <td>50</td>
+                    <td>52</td>
+                    <td>43</td>
+                    <td>65</td>
+                </tr>
+            </table>
+          </section>
+          <section>
+            <h3>Evolutions</h3>
+            <ul>
+                <li>Charmander <input type="image" src="img-main/icon-charmander.png" alt="charmander"> </li>
+                <li>Charmeleon<input type="image" src="img-main/icon-charmeleon.png" alt="charmeleon"></li>
+                <li>Charizard<input type="image" src="img-main/icon-charizard.png" alt="charizard"></li>
+            </ul>
+          </section>
+          
        </main>
 
     <footer>
-       <p> Transfer pokemon </p>
+       <h1>Choose your starter</h1>
+       <form>
+          <a href="form.html"><input type="button"  value="Choose"></a>
+       </form>
     </footer>
 </body>
 </html>
